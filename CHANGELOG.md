@@ -10,6 +10,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `LICENSE` — Apache License 2.0 (Copyright 2026 Hyojin Joo)
 - README license section
 - `docs/03-prd-v0.md` — PRD v0 초안 (가설 H1–H5, 성공 지표, validation plan) [v0.1.0]
+- `docs/adr/` directory with ADR index (`README.md`)
+- `docs/adr/0001-model-stack.md` — ADR-0001: faster-whisper + pyannote + WhisperX + Claude Sonnet (proposed)
 
 ## [0.1.0] - 2026-04-24
 ### Added
