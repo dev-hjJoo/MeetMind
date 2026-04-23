@@ -27,4 +27,4 @@
 TBD — 아키텍처 확정 후 v0.3에서 추가.
 
 ## License
-TBD
+[Apache License 2.0](LICENSE) · Copyright © 2026 Hyojin Joo
