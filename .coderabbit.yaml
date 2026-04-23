@@ -1,0 +1,27 @@
+# CodeRabbit configuration
+# Reference: https://docs.coderabbit.ai/guides/configure-coderabbit
+# Schema: https://coderabbit.ai/integrations/schema.v2.json
+
+language: "ko-KR"
+tone_instructions: >-
+  Be direct and technical. Prioritize clarity, unverified claims,
+  and missing assumptions over minor style nits. Keep commentary concise.
+  For product/strategy documents (PRD, ADR), push back on vague metrics,
+  untested hypotheses, and scope creep.
+early_access: false
+
+reviews:
+  profile: "chill"
+  request_changes_workflow: false
+  high_level_summary: true
+  poem: false
+  review_status: true
+  collapse_walkthrough: false
+  auto_review:
+    enabled: true
+    drafts: false
+  path_filters:
+    - "!LICENSE"
+
+chat:
+  auto_reply: true
