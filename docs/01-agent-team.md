@@ -1,6 +1,6 @@
 ---
 title: Agent Team Composition
-version: 0.1.0
+version: 0.2.0
 status: draft
 created: 2026-04-24
 updated: 2026-04-24
@@ -15,7 +15,7 @@ updated: 2026-04-24
 
 ---
 
-## 팀 (11명)
+## 팀 (12명)
 
 ### 🎯 Discovery & Strategy
 
@@ -82,6 +82,16 @@ updated: 2026-04-24
 - OpenTelemetry, 모델 드리프트 모니터링, 비용 대시보드
 - SOC2 선제 준비: PII/오디오 수명주기 · 암호화 · 권한 감사
 
+### 📋 Delivery & Coordination
+
+#### 12. `delivery-manager` — 딜리버리 매니저 (PM × EM 하이브리드)
+- 11인 팀 간 일일 코디네이션, 마일스톤 진행률 · 블로커 관리
+- **자율 결정 범위**: 섹션 순서 · 명명 · 설정 튜닝 · 합리적 대안 간 선택 · 커밋/PR 스캐폴딩 · CHANGELOG 부기.
+- **에스컬레이션 대상**: 스코프 변경 · 되돌리기 어려운 결정 · 외부 공개물 · 예산/비용 · 아키텍처 수준 변경.
+- 컨벤션 집행: Conventional Commits · `branch → PR → review → merge` 흐름 · 리뷰 전 머지 금지.
+- CHANGELOG · 릴리스 노트 · 리스크 레지스터 관리.
+- 의사결정자(사용자)에게는 **큰 범위 요약**만 주기적으로 보고.
+
 ---
 
 ## RACI 요약
@@ -96,8 +106,10 @@ R = Responsible · A = Accountable · C = Consulted · I = Informed
 | UI | ui-designer | ux-architect | ux-architect | all |
 | 평가 | ml-eval-lead | ai-architect | 전 AI팀 | all |
 | 인프라 / CI | platform-sre | platform-sre | system-architect | all |
+| 딜리버리 조율 · 프로세스 | delivery-manager | delivery-manager | all leads | all |
 
 ---
 
 ## Change Log (문서 내부)
+- **v0.2.0** (2026-04-24): `delivery-manager` 역할 추가 (총 12명). 자율/에스컬레이션 계약 명시. RACI에 딜리버리 조율 행 추가.
 - **v0.1.0** (2026-04-24): 초기 11명 구성 확정. RACI 정의.
