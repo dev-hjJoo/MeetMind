@@ -37,6 +37,9 @@ secrets/
 *.pem
 *.key
 
+# Claude Code local settings
+.claude/
+
 # ML artifacts
 models/
 checkpoints/
