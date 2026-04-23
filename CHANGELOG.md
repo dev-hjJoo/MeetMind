@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `LICENSE` — Apache License 2.0 (Copyright 2026 Hyojin Joo)
 - README license section
 - `docs/03-prd-v0.md` — PRD v0 초안 (가설 H1–H5, 성공 지표, validation plan) [v0.1.0]
+- `docs/04-eval-spec-v0.md` — Day-1 평가 스펙 초안 (metrics · golden set · protocol · ADR-0001 승격 조건) [v0.1.0]
 
 ## [0.1.0] - 2026-04-24
 ### Added
